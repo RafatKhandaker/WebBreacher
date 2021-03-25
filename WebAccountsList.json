@@ -1582,17 +1582,6 @@
          "valid" : true
       },
       {
-         "name" : "MassRoots",
-         "check_uri" : "https://api.massroots.com/v1/accounts?singleUser=true&username={account}",
-         "account_existence_code" : "200",
-         "account_existence_string" : "createdAt",
-         "account_missing_string" : "The requested document does not exist",
-         "account_missing_code" : "404",
-         "known_accounts" : ["morgaaan","wes19"],
-         "category" : "health",
-         "valid" : true
-      },
-      {
          "name" : "Medium",
          "check_uri" : "https://medium.com/@{account}",
          "account_existence_code" : "200",
